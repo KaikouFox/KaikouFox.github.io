@@ -13,7 +13,7 @@ h1 {
   padding-top: 30px;
   background-color: rgb(19, 43, 97);
   border: 10px double rgb(56, 17, 97);
-  border-radius: 50px
+  border-radius: 50px;
 }
 
 img {
@@ -39,4 +39,34 @@ footer {
   width: 100%;
   text-align: center;
   background-color: rgb(62, 164, 46);
+  font-weight: bold;
+}
+
+ul {
+  background: #1A0334;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  top: 184px;
+  left: 0px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a:hover {
+  background: #0A6537;
+
+}
+
+ul li a {
+  background: #278B58;
+  padding: 5px;
+  width: 200px;
+  border: solid 2px #9EDABC;
+  border-radius: 5px;
+  color: #9EDABC;
+  text-decoration: none;
+  text-align: center;
 }
