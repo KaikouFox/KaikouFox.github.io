@@ -80,7 +80,7 @@ footer {
   text-decoration: none;
 }
 
-#section {
+section {
   position: absolute;
   top: 200px;
   width: 100%;
@@ -88,18 +88,27 @@ footer {
   background-color: #A1B1D6;
 }
 
-#section .badges {
+#badgesSection img {
   width: 850px;
   height: 500px;
   z-index: 1;
 }
 
-#section .badges {
+#badgesSection div {
   position: absolute;
   top: 50px;
   left: 900px;
   display: inline-block;
   padding: 10px;
+  background-color: #2F4985;
+  border: 10px double rgb(56, 17, 97);
+  border-radius: 50px;
+}
+
+.email {
+  margin: 10px;
+  padding: 10px;
+  padding-left: 20px;
   background-color: #2F4985;
   border: 10px double rgb(56, 17, 97);
   border-radius: 50px;
