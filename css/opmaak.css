@@ -101,8 +101,10 @@ section {
   display: inline-block;
   padding: 10px;
   background-color: #2F4985;
+  color: #9EDABC;
   border: 10px double rgb(56, 17, 97);
   border-radius: 50px;
+  font-family: Arial, sans-serif;
 }
 
 .email {
@@ -112,10 +114,21 @@ section {
   background-color: #2F4985;
   border: 10px double rgb(56, 17, 97);
   border-radius: 50px;
+  font-family: Arial, sans-serif;
+  color: #9EDABC;
 }
 
 .email a {
   color: #52AD7F;
+}
+
+.email #pp {
+  margin-bottom: 5px;
+}
+
+.email #ppp {
+  margin-top: 5px;
+  margin-bottom: 16px;
 }
 
 .contact-div {
@@ -125,9 +138,16 @@ section {
   background-color: #2F4985;
   border: 10px double rgb(56, 17, 97);
   border-radius: 50px;
+  font-family: Arial, sans-serif;
+  color: #9EDABC;
 }
 
-.contact-div img {
+.contact-div #githubimg {
   width: 120px;
+  height: 100px;
+}
+
+.contact-div #discordimg {
+  width: 100px;
   height: 100px;
 }
