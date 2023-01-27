@@ -151,3 +151,41 @@ section {
   width: 100px;
   height: 100px;
 }
+
+.main-div {
+  margin: 10px;
+  padding: 20px;
+  background-color: #2F4985;
+  border: 10px double rgb(56, 17, 97);
+  border-radius: 50px;
+  font-family: Arial, sans-serif;
+  color: #9EDABC;
+}
+
+.main-div p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  z-index: 2;
+}
+
+.main-div h3 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  z-index: 2;
+}
+
+#kaas h3 {
+  color: rgb(255, 100, 0);
+}
+
+#kaas p {
+  color: rgb(255, 100, 0);
+}
+
+#kaas {
+  background-color: yellow;
+  border-color: rgb(255, 100, 0);
+  border-style: dotted;
+  border-radius: 100px;
+  text-align: center;
+}
