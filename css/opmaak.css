@@ -91,20 +91,18 @@ section {
 #badgesSection img {
   width: 850px;
   height: 500px;
+  margin: 10px;
+  background-color: #2F4985;
+  border: 10px double rgb(56, 17, 97);
+  border-radius: 70px;
   z-index: 1;
 }
 
-#badgesSection div {
+#badge-div {
   position: absolute;
   top: 50px;
   left: 900px;
   display: inline-block;
-  padding: 10px;
-  background-color: #2F4985;
-  color: #9EDABC;
-  border: 10px double rgb(56, 17, 97);
-  border-radius: 50px;
-  font-family: Arial, sans-serif;
 }
 
 .email {
@@ -164,6 +162,18 @@ section {
 
 .main-div p {
   margin-top: 2px;
+  margin-bottom: 2px;
+  z-index: 2;
+}
+
+.main-div li {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  z-index: 2;
+}
+
+.main-div ul {
+  margin-top: 5px;
   margin-bottom: 2px;
   z-index: 2;
 }
